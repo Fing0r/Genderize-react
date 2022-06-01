@@ -1,0 +1,32 @@
+#root {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+body {
+    background-color: black;
+}
+
+.gender {
+    padding: 20px;
+    border: 3px solid aquamarine;
+    background-color: #fff;
+}
+.gender__fieldset {
+    min-height: 93px;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.gender__label {
+    margin-top: 18px;
+}
+
+.gender__result {
+    color: green;
+}
+
+.gender__error {
+    color: red;
+}
