@@ -1,4 +1,4 @@
-import {ISpanMessage} from "../Interfaces";
+import {ISpanMessage} from "../typing/Interfaces";
 
 function SpanMessage(props: ISpanMessage) {
     const {message, gender} = props;

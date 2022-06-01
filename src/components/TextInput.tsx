@@ -1,5 +1,5 @@
 import React from 'react'
-import {ITextInput} from "../Interfaces";
+import {ITextInput} from "../typing/Interfaces";
 
 
 function TextInput(props: ITextInput) {
